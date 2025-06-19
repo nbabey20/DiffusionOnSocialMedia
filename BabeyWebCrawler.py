@@ -1,14 +1,6 @@
 from mastodon import Mastodon
 import json
 
-#set up api
-mastodon = Mastodon(
-    client_id='Exv-1AAtCrN7nipPmLvl-8Dqudw70CAsNHl7c-eR2IU',
-    client_secret='pZzdHUcE6T5OsbyV_xo0EwcPIWUmi4TWtD38DUmVMgk',
-    access_token='rqs6mygsm9ZdY9EI51Sxy5vetEx3reDVf2QmhxGha5A',
-    api_base_url='https://mastodon.social'
-)
-
 #create hashtag pool and empty lists to store posts
 hashtags = ['climatechange', 'globalwarming', 'climatecrisis', 'climateaction', 'climatehoax', 'climatechangeisreal', 'gretathunberg', 'climate', 'sustainability', 'recycling', 'cleanenergy', 'ecofriendly', 'solar', 'environment', 'earthday', 'cleanenergy']
 climatePosts = []
